@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<replace sel="//macros/macro[@name='ship_tel_m_bomber_01_a_macro']/properties/storage/@missile">100</replace>
+</diff>

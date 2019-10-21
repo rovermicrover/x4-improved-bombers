@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="ImprovedBombers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="EnsureBluePrints" instantiate="true" namespace="this">
+      <conditions>
+        <event_game_loaded />
+      </conditions>
+      <actions>
+				<set_value name="$OldBlueprintWares" exact="[ware.turret_arg_m_guided_02_mk1, ware.turret_par_m_guided_02_mk1, ware.turret_tel_m_guided_02_mk1, ware.turret_arg_m_dumbfire_02_mk1, ware.turret_par_m_dumbfire_02_mk1, ware.turret_tel_m_dumbfire_02_mk1]" />
+				<set_value name="$NewBlueprintWares" exact="[ware.turret_arg_m_guided_01_mk1, ware.turret_par_m_guided_01_mk1, ware.turret_tel_m_guided_01_mk1, ware.turret_arg_m_dumbfire_01_mk1, ware.turret_par_m_dumbfire_01_mk1, ware.turret_tel_m_dumbfire_01_mk1]" />
+				<set_value name="$i" exact="1" />
+				<do_while value="$i le $OldBlueprintWares.count">
+					<set_value name="$OldBlueprintWare" exact="$OldBlueprintWares.{$i}" />
+					<set_value name="$NewBlueprintWare" exact="$NewBlueprintWares.{$i}" />
+					
+					<do_if value="player.blueprints.{$OldBlueprintWare}.any.exists and not player.blueprints.{$NewBlueprintWare}.any.exists">
+						<add_blueprints wares="$NewBlueprintWare" />
+					</do_if>
+					
+					<set_value name="$i" exact="$i + 1" />
+				</do_while>
+			</actions>
+		</cue>
+	</cues>
+</mdscript>
+	

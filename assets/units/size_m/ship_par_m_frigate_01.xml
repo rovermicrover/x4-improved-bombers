@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<replace sel="//components/component/connections/connection[@name='con_turret_front_R']/@tags">turret medium standard platformcollision unhittable</replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_back_L']/@tags">turret medium standard platformcollision unhittable</replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_front_L']/@tags">turret medium standard platformcollision unhittable</replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_back_R']/@tags">turret medium standard platformcollision unhittable</replace>
+</diff>
