@@ -22,9 +22,9 @@ Added an MD file to ensure no issue with blueprint miss match.
 
 # Links
 
-Download
-Steam Workshop
-Nexus
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1893821953)
+[Nexus](https://www.nexusmods.com/x4foundations/mods/356/)
+[Github](https://github.com/rovermicrover/x4-improved-bombers/blob/master/README.md)
 
 # History
 
