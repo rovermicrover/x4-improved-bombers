@@ -22,6 +22,8 @@ Note 2: to change missile type for the turret launchers on the top middle of you
 
 # Links
 
+[Egosoft Forum](https://forum.egosoft.com/viewtopic.php?f=181&t=419530&p=4892063#p4892063)
+
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1893821953)
 
 [Nexus](https://www.nexusmods.com/x4foundations/mods/356/)
