@@ -2,7 +2,7 @@
 
 Bombers in Vanilla are worse bombers than Frigates and Corvettes. Frigates have more capacity, and Corvettes have more launches.
 
-This mod aims to fix that. It Allows Bombers To Use Missile Turrets And Buffs Their Missile Hold To 100, execpt the Minotaur Raider which isn't fully a bomber has had its possible hold only buffed to 50.
+This mod aims to fix that. It Allows Bombers To Use Missile Turrets And Buffs Their Missile Hold To 100, except the Minotaur Raider which isn't fully a bomber has had its possible hold only buffed to 50.
 
 This has bombers matching Frigates capacity, and outclassing Corvettes launcher count.
 
