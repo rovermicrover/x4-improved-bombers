@@ -14,11 +14,11 @@ Note 2: to change missile type for the turret launchers on the top middle of you
 
 # What Is Modified?
 
-In all the layout files for M ships the turrets are patched to ensure only bombers can use the missile turrets.
-Patched the bomber ships macros to give them more missile storage.
-Patched the library ware file to allow for blueprints for the turret missile launchers for m ships.
-Patched the library icon file to ensure the turret missile launchers have icons in the equipment menu.
-Added an MD file to ensure no issue with blueprint miss match.
+* In all the layout files for M ships the turrets are patched to ensure only bombers can use the missile turrets.
+* Patched the bomber ships macros to give them more missile storage.
+* Patched the library ware file to allow for blueprints for the turret missile launchers for m ships.
+* Patched the library icon file to ensure the turret missile launchers have icons in the equipment menu.
+* Added an MD file to ensure no issue with blueprint miss match.
 
 # Links
 
