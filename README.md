@@ -23,7 +23,9 @@ Note 2: to change missile type for the turret launchers on the top middle of you
 # Links
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1893821953)
+
 [Nexus](https://www.nexusmods.com/x4foundations/mods/356/)
+
 [Github](https://github.com/rovermicrover/x4-improved-bombers/)
 
 # History
