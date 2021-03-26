@@ -6,12 +6,14 @@
 		<owner faction="alliance" />
 		<owner faction="antigone" />
 	</add>
+	
 	<replace sel="//wares/ware[@id='turret_par_m_guided_01_mk1']/@tags">equipment turret</replace>
 	<add sel="//wares/ware[@id='turret_par_m_guided_01_mk1']">
 		<use threshold="0" />
 		<owner faction="alliance" />
 		<owner faction="holyorder" />
 	</add>
+	
 	<replace sel="//wares/ware[@id='turret_tel_m_guided_01_mk1']/@tags">equipment turret</replace>
 	<add sel="//wares/ware[@id='turret_tel_m_guided_01_mk1']">
 		<use threshold="0" />
@@ -24,12 +26,15 @@
 		<use threshold="0" />
 		<owner faction="alliance" />
 		<owner faction="antigone" />
-	</add>	<replace sel="//wares/ware[@id='turret_par_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
+	</add>	
+	
+	<replace sel="//wares/ware[@id='turret_par_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
 	<add sel="//wares/ware[@id='turret_par_m_dumbfire_01_mk1']">
 		<use threshold="0" />
 		<owner faction="alliance" />
 		<owner faction="holyorder" />
 	</add>
+	
 	<replace sel="//wares/ware[@id='turret_tel_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
 	<add sel="//wares/ware[@id='turret_tel_m_dumbfire_01_mk1']">
 		<use threshold="0" />

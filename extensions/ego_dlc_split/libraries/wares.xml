@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//wares/ware[@id='turret_spl_m_guided_01_mk1']/@tags">equipment turret</replace>
+	<add sel="//wares/ware[@id='turret_spl_m_guided_01_mk1']">
+		<use threshold="0" />
+	</add>
+
+	<replace sel="//wares/ware[@id='turret_spl_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
+	<add sel="//wares/ware[@id='turret_spl_m_dumbfire_01_mk1']">
+		<use threshold="0" />
+	</add>	
+</diff>
