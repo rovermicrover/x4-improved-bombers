@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<add sel="//icons">
-		<icon name="upgrade_turret_ter_m_guided_01_mk1_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\turret_ter_m_guided_02_mk1_macro.tga" height="256" width="256"></icon>
-		<icon name="upgrade_turret_ter_m_dumbfire_01_mk1_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\turret_ter_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
-	</add>
+  <add sel="//icons">
+    <icon name="upgrade_turret_ter_m_guided_01_mk1_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\turret_ter_m_guided_02_mk1_macro.tga" height="256" width="256"></icon>
+    <icon name="upgrade_turret_ter_m_dumbfire_01_mk1_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\turret_ter_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
+  </add>
 </diff>
