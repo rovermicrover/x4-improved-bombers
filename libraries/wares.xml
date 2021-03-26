@@ -5,6 +5,7 @@
     <use threshold="0" />
     <owner faction="alliance" />
     <owner faction="antigone" />
+    <owner faction="buccaneers" />
   </add>
   
   <replace sel="//wares/ware[@id='turret_par_m_guided_01_mk1']/@tags">equipment turret</replace>
@@ -12,6 +13,7 @@
     <use threshold="0" />
     <owner faction="alliance" />
     <owner faction="holyorder" />
+    <owner faction="trinity" />
   </add>
   
   <replace sel="//wares/ware[@id='turret_tel_m_guided_01_mk1']/@tags">equipment turret</replace>
@@ -26,6 +28,7 @@
     <use threshold="0" />
     <owner faction="alliance" />
     <owner faction="antigone" />
+    <owner faction="buccaneers" />
   </add>  
   
   <replace sel="//wares/ware[@id='turret_par_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
@@ -33,6 +36,7 @@
     <use threshold="0" />
     <owner faction="alliance" />
     <owner faction="holyorder" />
+    <owner faction="trinity" />
   </add>
   
   <replace sel="//wares/ware[@id='turret_tel_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
@@ -40,5 +44,25 @@
     <use threshold="0" />
     <owner faction="alliance" />
     <owner faction="ministry" />
+  </add>
+
+  <replace sel="//wares/ware[@id='turret_spl_m_guided_01_mk1']/@tags">equipment turret</replace>
+  <add sel="//wares/ware[@id='turret_spl_m_guided_01_mk1']">
+    <use threshold="0" />
+  </add>
+
+  <replace sel="//wares/ware[@id='turret_spl_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
+  <add sel="//wares/ware[@id='turret_spl_m_dumbfire_01_mk1']">
+    <use threshold="0" />
+  </add>
+
+  <replace sel="//wares/ware[@id='turret_ter_m_guided_01_mk1']/@tags">equipment turret</replace>
+  <add sel="//wares/ware[@id='turret_ter_m_guided_01_mk1']">
+    <use threshold="0" />
+  </add>
+
+  <replace sel="//wares/ware[@id='turret_ter_m_dumbfire_01_mk1']/@tags">equipment turret</replace>
+  <add sel="//wares/ware[@id='turret_ter_m_dumbfire_01_mk1']">
+    <use threshold="0" />
   </add>
 </diff>

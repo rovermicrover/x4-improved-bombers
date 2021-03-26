@@ -9,21 +9,26 @@
         <set_value name="$OldBlueprintWares" exact="[ware.turret_arg_m_guided_02_mk1, ware.turret_par_m_guided_02_mk1, ware.turret_tel_m_guided_02_mk1, ware.turret_arg_m_dumbfire_02_mk1, ware.turret_par_m_dumbfire_02_mk1, ware.turret_tel_m_dumbfire_02_mk1]" />
         <set_value name="$NewBlueprintWares" exact="[ware.turret_arg_m_guided_01_mk1, ware.turret_par_m_guided_01_mk1, ware.turret_tel_m_guided_01_mk1, ware.turret_arg_m_dumbfire_01_mk1, ware.turret_par_m_dumbfire_01_mk1, ware.turret_tel_m_dumbfire_01_mk1]" />
         <!-- Split -->
-        <do_if value="@ware.turret_spl_m_guided_01_mk1.id">
-          <append_list_elements name="$OldBlueprintWares" other="[ware.turret_spl_m_guided_02_mk1,ware.turret_spl_m_dumbfire_02_mk1]"/>
-          <append_list_elements name="$NewBlueprintWares" other="[ware.turret_spl_m_guided_01_mk1,ware.turret_spl_m_dumbfire_01_mk1]"/>
+        <do_if value="ware.turret_spl_m_guided_02_mk1.id">
+          <append_list_elements name="$OldBlueprintWares" other="[ware.turret_spl_m_guided_02_mk1, ware.turret_spl_m_dumbfire_02_mk1]"/>
+          <append_list_elements name="$NewBlueprintWares" other="[ware.turret_spl_m_guided_01_mk1, ware.turret_spl_m_dumbfire_01_mk1]"/>
         </do_if>
         <!-- CoH -->
-        <do_if value="@ware.turret_ter_m_guided_01_mk1.id">
-          <append_list_elements name="$OldBlueprintWares" other="[ware.turret_ter_m_guided_02_mk1,ware.turret_ter_m_dumbfire_02_mk1]"/>
-          <append_list_elements name="$NewBlueprintWares" other="[ware.turret_ter_m_guided_01_mk1,ware.turret_ter_m_dumbfire_01_mk1]"/>
+        <do_if value="ware.turret_ter_m_guided_02_mk1.id">
+          <append_list_elements name="$OldBlueprintWares" other="[ware.turret_ter_m_guided_02_mk1, ware.turret_ter_m_dumbfire_02_mk1]"/>
+          <append_list_elements name="$NewBlueprintWares" other="[ware.turret_ter_m_guided_01_mk1, ware.turret_ter_m_dumbfire_01_mk1]"/>
         </do_if>
         <set_value name="$i" exact="1" />
         <do_while value="$i le $OldBlueprintWares.count">
           <set_value name="$OldBlueprintWare" exact="$OldBlueprintWares.{$i}" />
           <set_value name="$NewBlueprintWare" exact="$NewBlueprintWares.{$i}" />
+
+          <debug_text text="'Checking if need to add ware id:' + $NewBlueprintWare.id"/>
+          <debug_text text="'Does the player have the blueprint with id:' + $OldBlueprintWare.id + '? ' + player.blueprints.{$OldBlueprintWare}.any.exists"/>
+          <debug_text text="'Does the player have the blueprint with id:' + $NewBlueprintWare.id + '? ' + player.blueprints.{$NewBlueprintWare}.any.exists"/>
           
           <do_if value="player.blueprints.{$OldBlueprintWare}.any.exists and not player.blueprints.{$NewBlueprintWare}.any.exists">
+            <debug_text text="'Adding ware with id:' + $NewBlueprintWare.id"/>
             <add_blueprints wares="$NewBlueprintWare" />
           </do_if>
           

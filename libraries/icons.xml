@@ -7,5 +7,11 @@
     <icon name="upgrade_turret_arg_m_dumbfire_01_mk1_macro" texture="assets\fx\gui\textures\upgrades\turret_arg_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
     <icon name="upgrade_turret_par_m_dumbfire_01_mk1_macro" texture="assets\fx\gui\textures\upgrades\turret_par_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
     <icon name="upgrade_turret_tel_m_dumbfire_01_mk1_macro" texture="assets\fx\gui\textures\upgrades\turret_tel_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
+
+	<icon name="upgrade_turret_spl_m_guided_01_mk1_macro" texture="extensions\ego_dlc_split\assets\fx\gui\textures\upgrades\turret_spl_m_guided_02_mk1_macro.tga" height="256" width="256"></icon>
+    <icon name="upgrade_turret_spl_m_dumbfire_01_mk1_macro" texture="extensions\ego_dlc_split\assets\fx\gui\textures\upgrades\turret_spl_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
+
+	<icon name="upgrade_turret_ter_m_guided_01_mk1_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\turret_ter_m_guided_02_mk1_macro.tga" height="256" width="256"></icon>
+    <icon name="upgrade_turret_ter_m_dumbfire_01_mk1_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\turret_ter_m_dumbfire_02_mk1_macro.tga" height="256" width="256"></icon>
   </add>
 </diff>
