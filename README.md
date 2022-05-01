@@ -37,3 +37,5 @@ Note 2: to change missile type for the turret launchers on the top middle of you
 1.03 Code Hosted On Github. Fixed Xenon P using missile turrets. Nerfed the Minotuar Raider missile capacity to fall in line with base game logic.
 
 1.04-1.06 Change local build system to avoid un needed things in release
+
+1.07 Match latest changes in X4 code base.
