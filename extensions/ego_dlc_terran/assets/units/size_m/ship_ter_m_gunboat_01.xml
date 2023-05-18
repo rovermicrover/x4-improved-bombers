@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-<replace sel="//components/component/connections/connection[@name='con_turret_01']/@tags">turret medium standard missile unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_02']/@tags">turret medium standard missile unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_03']/@tags">turret medium standard missile unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_04']/@tags">turret medium standard missile unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_05']/@tags">turret medium standard missile unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_06']/@tags">turret medium standard missile unhittable</replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_01']/@tags">turret medium standard missile unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_02']/@tags">turret medium standard missile unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_03']/@tags">turret medium standard missile unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_04']/@tags">turret medium standard missile unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_05']/@tags">turret medium standard missile unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_06']/@tags">turret medium standard missile unhittable  combat </replace>
 </diff>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-<replace sel="//components/component/connections/connection[@name='con_turret_L02']/@tags">turret medium standard missile platformcollision unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_L01']/@tags">turret medium standard missile platformcollision unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_R01']/@tags">turret medium standard missile platformcollision unhittable</replace>
-<replace sel="//components/component/connections/connection[@name='con_turret_R02']/@tags">turret medium standard missile platformcollision unhittable</replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_L02']/@tags">turret medium standard missile platformcollision unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_L01']/@tags">turret medium standard missile platformcollision unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_R01']/@tags">turret medium standard missile platformcollision unhittable  combat </replace>
+<replace sel="//components/component/connections/connection[@name='con_turret_R02']/@tags">turret medium standard missile platformcollision unhittable  combat </replace>
 </diff>
